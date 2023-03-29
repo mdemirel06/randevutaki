@@ -1,22 +1,19 @@
-$sqlmain= "SELECT *
-           FROM takvim
-           INNER JOIN doktor ON takvim.docid = doktor.docid
-           INNER JOIN klinik ON doktor.klinikid = klinik.klinikid
-           WHERE takvim.bitis >= '$today'
-                 AND (doktor.docname = '$keyword'
-                      OR doktor.docname LIKE '$keyword%'
-                      OR doktor.docname LIKE '%$keyword'
-                      OR doktor.docname LIKE '%$keyword%'
-                      OR takvim.title = '$keyword'
-                      OR takvim.title LIKE '$keyword%'
-                      OR takvim.title LIKE '%$keyword'
-                      OR takvim.title LIKE '%$keyword%'
-                      OR takvim.scheduledate LIKE '$keyword%'
-                      OR takvim.scheduledate LIKE '%$keyword'
-                      OR takvim.scheduledate LIKE '%$keyword%'
-                      OR takvim.scheduledate = '$keyword'
-                      OR klinik.klinikler = '$keyword'
-                      OR klinik.klinikler LIKE '$keyword%'
-                      OR klinik.klinikler LIKE '%$keyword'
-                      OR klinik.klinikler LIKE '%$keyword%')
-           ORDER BY takvim.scheduledate ASC";
+if(isset($_POST['randevu_al'])) {
+    $sql = "SELECT * FROM randevu WHERE pid = $userid";
+    $res = $database->query($sql);
+    $takvim_docid = $docid;
+    $already_booked = false;
+    while ($row = $res->fetch_assoc()) {
+        $randevu_docid = $row["docid"];
+        if ($randevu_docid == $takvim_docid) {
+            $already_booked = true;
+            break;
+        }
+    }
+    if ($already_booked) {
+        echo "Bu doktordan zaten bir randevunuz var!";
+    } else {
+        // randevu alma işlemini gerçekleştir
+        // ...
+    }
+}
