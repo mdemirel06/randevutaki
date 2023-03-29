@@ -1,0 +1,5 @@
+ - Randevu Al Ve Randevular Sıkıntılı
++- Admin Panelden hasta gelme aralığı değişicek = Adminden Zaman değiştirme eklendi ama şifre isteme olayı
++- Öğle Arası Eklencek	
+ - Doktorun Oluşturduğu Randevuları Admin Onaylaması
+ - Randevu Durumları Eklenmesi ve ona göre işlemlerin uygulanması
