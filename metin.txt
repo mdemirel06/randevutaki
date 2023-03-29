@@ -1,19 +1,19 @@
 if(isset($_POST['randevu_al'])) {
-    $sql = "SELECT * FROM randevu WHERE pid = $userid";
-    $res = $database->query($sql);
-    $takvim_docid = $docid;
-    $already_booked = false;
-    while ($row = $res->fetch_assoc()) {
-        $randevu_docid = $row["docid"];
-        if ($randevu_docid == $takvim_docid) {
-            $already_booked = true;
-            break;
-        }
-    }
-    if ($already_booked) {
-        echo "Bu doktordan zaten bir randevunuz var!";
-    } else {
-        // randevu alma işlemini gerçekleştir
-        // ...
-    }
-}
+                                                                $sql = "SELECT * FROM randevu WHERE pid = $userid";
+                                                                $res = $database->query($sql);
+                                                                $takvim_docid = $docid;
+                                                                $already_booked = false;
+                                                                while ($row = $res->fetch_assoc()) {
+                                                                    $randevu_docid = $row["docid"];
+                                                                    if ($randevu_docid == $takvim_docid) {
+                                                                        $already_booked = true;
+                                                                        break;
+                                                                    }
+                                                                }
+                                                                if ($already_booked) {
+                                                                    echo "Bu doktordan zaten bir randevunuz var!";
+                                                                } else {
+                                                                echo ' <a href="rezervasyon1.php?id='.$scheduleid.'" ><button name="randevu_al" class="login-btn btn-primary-soft btn "  style="padding-top:11px;padding-bottom:11px;width:100%"><font class="tn-in-text">Randevu Al</font></button></a>
+                                                                    ';
+                                                                }
+                                                            }
