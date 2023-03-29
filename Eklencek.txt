@@ -1,5 +1,8 @@
- - Randevu Al Ve Randevular Sıkıntılı
++- Randevu Al Ve Randevular Sıkıntılı
 +- Admin Panelden hasta gelme aralığı değişicek = Adminden Zaman değiştirme eklendi ama şifre isteme olayı
 +- Öğle Arası Eklencek	
- - Doktorun Oluşturduğu Randevuları Admin Onaylaması
++- Doktorun Oluşturduğu Randevuları Admin Onaylaması = 0 Randevu Onay Bekliyor 1 = Randevu Onayland 2 = Randevu İptal Edildi
+ 	(istenirse doktor paneline onay bekleyen randevular eklenebilir.)
+
  - Randevu Durumları Eklenmesi ve ona göre işlemlerin uygulanması
+ - Hata Randevu Sıralama Hata
