@@ -7,3 +7,5 @@
 
  - Randevu Durumları Eklenmesi ve ona göre işlemlerin uygulanması
  - Hata Randevu Sıralama Hata
+ - and randevu.rndurum=2 bir tane daha rndurum eklemek istiyorum
+
