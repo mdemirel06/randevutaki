@@ -1,0 +1,20 @@
++- Randevu Al Ve Randevular Sıkıntılı
++- Admin Panelden hasta gelme aralığı değişicek = Adminden Zaman değiştirme eklendi ama şifre isteme olayı var
++- Öğle Arası Eklencek	- Eklendi Saat Seçme Olayı Güncellenebilir
++- Doktorun Oluşturduğu Randevuları 
+	Admin Onaylaması  
+	0 = Randevu Onay Bekliyor 
+	1 = Randevu Onaylandı 
+	2 = Randevu İptal Edildi
+ 	(istenirse doktor paneline onay bekleyen randevular eklenebilir.)
++- Takvim Tablosuna klinik_id Eklendi (Admin Entegre Edilebilir secim için)
+
++- Randevu Durumları Eklenmesi ve ona göre işlemlerin uygulanması 
+	0- Hasta İptal Edilen Randevu 
+	1- Aktif Randevu
+	2- Doktor İptal Edilen Randevu
+	3- Hasta Gelmedi
+	4- Randevuyu Tamamlandı
+	5- Oturum İptal
++-Hasta Arama Yapınca Aktif Olmayanlarıda listeliyor sadece aktif olanları listelemesi lazım
++- Hastanın Kaydolduğu Oturum Kapatılırsa Hastanında Randevusu İptal Edilmeli
