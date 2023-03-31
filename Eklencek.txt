@@ -15,6 +15,5 @@
 	2- Doktor İptal Edilen Randevu
 	3- Hasta Gelmedi
 	4- Randevuyu Tamamlandı
-	5- Oturum İptal
 +-Hasta Arama Yapınca Aktif Olmayanlarıda listeliyor sadece aktif olanları listelemesi lazım
 +- Hastanın Kaydolduğu Oturum Kapatılırsa Hastanında Randevusu İptal Edilmeli
