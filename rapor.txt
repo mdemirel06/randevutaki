@@ -1,0 +1,27 @@
+-Grafik 
+Doktorun aylık,günlük, yıllık,hepsi,aralık seç
+Gelen hasta sayısı cinsiyeti yaşına göre
+
+-- Kadın erkek cinsiyete göre yaş grafikleri oluşturuldu
+-- Doktora göre grafikler oluşturuldu  -- 
+	1- Tamamlanan Hasta
+	2- Gelmeyen Hasta
+	3- İptal Edilen Randevu
+	4- Aktif Randevular
+-- Tarih Seçme Çalışmıyor
+
+
+
+--Composer ve git yüklendi  // Kaldırıldı
+
+Rapor
+Loglar 
+
+-Doktor Randevu İptal
+-Doktor Seans Oluştur
+-Doktor Seans İptal
+-Doktor Randevu Tamamlandı
+
+-Hasta Randevu Aldı 
+-Hasta Randevu İptal Etti 
+-Hasta Giriş Çıkış Log
