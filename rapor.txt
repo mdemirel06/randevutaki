@@ -1,6 +1,0 @@
--Grafik 
-Doktorun aylık,günlük, yıllık,hepsi,aralık seç
-Gelen hasta sayısı cinsiyeti yaşına göre
-
-Rapor
-Loglar 
